@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Novo usuário</title>
+</head>
+<body>
+    
+   <div class="container">
+    <section class ="header">
+        <h2>Preencha os campos e solicite a sua consultoria(Financeira)</h2>
+    </section>
+    <form id="form" class="form">
+        <div class="form-content">
+            <label for="username">Nome do usuário</label>
+            <input type="text" id="username" placeholder="Digite o nome do usuário..."/>
+            <a>Aqui vai a mensagem de erro...</a>
+        </div>
+
+        <div class="form-content">
+            <label for="phone">Telefone</label>
+            <input type="phone" id="phone" placeholder="Nº de Telefone..."/>
+            <a>Aqui vai a mensagem de erro...</a>
+        </div>
+
+        <div class="form-content">
+            <label for="password">Consultoria</label>
+            <select class="form-content" for="description" id="description">
+                    <option value="0">Que consultoria pretendes?</option>
+                    <option value="">MODELAGEM DE PROCESSOS FINANCEIROS</option>
+                    <option value="">ANÁISE FINANCEIRA</option>
+                    <option value="">PLANEAMENTO FINANCEIRO</option>
+                    <option value="">CONTROLO FINANCEIRO</option>
+                    <option value="">ANÁLISE DE RISCOS FINANCEIROS</option>
+                    <option value="">ANÁLISE DA ESTRUTURA FINANCEIRO</option>
+                    <option value="">ANÁLISE DE SEGURANÇA FINANCEIRA</option>
+                </select>
+           
+            <a>Aqui vai a mensagem de erro...</a>
+        </div>
+
+        <div class="form-content">
+            <label for="date">Data de início</label>
+            <input type="date" id="date" placeholder="Insira a data de início(dia/mês/ano)"/>
+            <a>Aqui vai a mensagem de erro...</a>
+        </div>
+<button type="submit">Solicitar</button>
+        
+    </form>
+   </div>
+
+        
+  <script src="js/cadastro.js"></script>
+</body>
+</html>

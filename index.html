@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>FelixinacioCft</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Kilamba, Prédio K25, Apartamento 104</a>
+                        <a href="tel:+01234567890" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>947192788</a>
+                        <a href="mailto:example@gmail.com" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>felix.malungue@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="cadatro.html"><small class="me-3 text-dark"><i class="fa fa-user text-primary me-2"></i>Registar-se</small></a>
+                        <a href="#"><small class="me-3 text-dark"><i class="fa fa-sign-in-alt text-primary me-2"></i>Login</small></a>
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary"><img src="img/LOGOTIPO.png" alt="" srcset=""></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">A Empresa</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Formações</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="formacao_copetencia.html" class="dropdown-item">Formação Por Copetência</a>
+                                <a href="blog.html" class="dropdown-item">Formação Por Qualificação</a>
+                                <a href="#" class="dropdown-item">Formação E-learning</a>
+                              
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Consultorias</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="consultoriaempresarial.html" class="dropdown-item">Consultoria Empresarial</a>
+                                <a href="consultoriaFiscal.html" class="dropdown-item">Consultoria Fiscal</a>
+                                <a href="consultoriaFinanceira.html" class="dropdown-item">Consultoria Financeira</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Biblioteca</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="artigojornal.html" class="dropdown-item">Artigos do Jornal</a>
+                                <a href="#" class="dropdown-item">Artigos Financeiro</a>
+                                <a href="#" class="dropdown-item">Material de Formação</a>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Livros</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="Livros.html" class="dropdown-item">Galeria</a>
+                                <a href="Legislacoes.html" class="dropdown-item">Legislação</a>
+                               
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Login</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="cadatro.html" class="dropdown-item">Iniciar sessão</a>
+                                <a href="registro.html" class="dropdown-item">Registar-se</a>
+                                <a href="#" class="dropdown-item">ChatBoot</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+
+            <!-- frase menu inicio -->
+            <div class="header-carousel owl-carousel">
+                <div class="header-carousel-item">
+                    <img src="img/offer-2.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row gy-0 gx-5">
+                                <div class="col-lg-0 col-xl-5"></div>
+                                <div class="col-xl-7 animated fadeInLeft">
+                                    <div class="text-sm-center text-md-end">
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Consultorias , Formações & Tecnologia</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Site 100% interactivo & Intuitivo</h1>
+                                      
+                                        <p class="mb-5 fs-5">Estamos abertos 24h/24h
+                                        </p>
+                                        
+                                        <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"> Formações</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Consultorias</a>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-carousel-item">
+                    <img src="img/offer-3.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 animated fadeInUp">
+                                    <div class="text-center">
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Consultorias , Formações & Tecnologia</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">O seu futuro inovador começa aqui </h1>
+                                        <p class="mb-5 fs-5">O seu futuro inovador começa aqui 
+                                        </p>
+                                        <div class="d-flex justify-content-center flex-shrink-0 mb-4">
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">Formações</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Consultorias</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- frase menu fim -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+           <!-- Sobre-Inicio -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">FRASE DO DIA</h4>
+                            <h1 class="display-5 mb-4">FelixinacioCft</h1>
+                            <p class="mb-4">A vida não é linear, tenha inteligência para começar, sabedoria para estabilizar, esperteza para contornar as armadilhas , astúcia para atacar, estratégia para mitigar riscos.
+                            </p>
+                            <div class="d-flex">
+
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded position-relative overflow-hidden">
+                            <img src="img/FB_IMG_17272623904485500.jpg" class="img-fluid rounded w-100" alt="">
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+                <!-- Services Start -->
+                <div class="container-fluid service pb-5">
+                    <div class="container pb-5">
+                        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                            <h4 class="text-primary">TEXTOS PERSUAVISOS</h4>
+                            <h1 class="display-5 mb-4"></h1>
+                            
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/medium-shot-stressed-man-looking-papers_23-2148773978.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">Vantagens de uma consultoria fiscal para sua empresa</a>
+                                        <p class="mb-4">A gestão da carga fiscal actualmente representa a maior preocupação para o empresário ou empreendedor, a julgar pelas multas atribuídas pela Administração Geral Tributaria (AGT) em caso de incumprimento fiscal, não obstante, aplicação da medida gravosa além das...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP1.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/individual-expressing-concern-about-rising-cost-living_23-2151735311.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">Razões para contratar uma consultoria financeira</a>
+                                        <p class="mb-4">Em Angola, muitas empresas ainda não conseguiram encontrar a importância da gestão 
+                                            financeira na condução do seu negocio, muito conta do desconhecimento das ferramentas que são utilizadas para gerir das finanças de forma inteligente para que consiga ajustar a empresa ao...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP2.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/office-scene-with-laptop-top-view_23-2147626520.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">Porquê é importante controlar a eficiência e produtividade na sua empresa</a>
+                                        <p class="mb-4">Controle da eficiência e da produtividade são palavras de ordem quando o assunto está relacionado ao crescimento empresarial.  O controle da eficiência e da produtividade são fundamentais quando são regularmente efectuados numa...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP3.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/person-feeling-anxiety-induced-by-documents-work_23-2150981923.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">Perigo da desorganização de uma empresa quando recebe o financiamento</a>
+                                        <p class="mb-4">A solicitação de financiamento além dos requisitos essenciais que a banca solicita, a 
+                                            empresa precisa estar dotada de uma organização que viabilize a estrutura da empresa, optimizar os fundos a serem concedido na solicitação de credito, convergente a utilização inteligente dos ...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP4.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/covid-19-global-economic-crisis_23-2148746591.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">Os perigos da ausência de modelagem nos processos financeiros</a>
+                                        <p class="mb-4">A modelagem dos processos financeiros, consiste na introdução de metodologia de trabalho que viabiliza melhor organização no funcionamento do fluxograma de tarefas a nível do departamento financeiro das empresas, proporcionando de forma detalhada e, melhor estruturado o processamento de geração de dados e...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP5.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/portrait-adult-male-focusing-work-night_23-2148499656.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">O  que é análise preditiva de falência em empresa?Para que serve?</a>
+                                        <p class="mb-4">O actual cenário da economia angolana, marcada pela subida de preços dos bens e serviços, muito por conta da subida do cambio e a inflação. Esta situação contribui para o aumento das incertezas em relação a estabilidade no mercado. 
+                                        A falência das empresas, já é possível realizar estudo sobre a previsão do momento em que
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP6.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/CERTIDÃO DE CONFORMIDADE.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">Complaince Fiscal: Entenda porquê é fundamental para a sua empresa</a>
+                                        <p class="mb-4">O compliance fiscal é um conjunto de práticas que garantem que uma empresa esteja em conformidade com as leis e regulamentos fiscais. Na era digital, a importância do compliance fiscal se acentua, pois a legislação tributária está em constante evolução e as empresas...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP7.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="img/covid-19-global-economic-crisis_23-2148746530.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                    </div>
+                                    <div class="rounded-bottom p-4">
+                                        <a href="#" class="h4 d-inline-block mb-4">Como a sua empresa pode obter segurança financeira</a>
+                                        <p class="mb-4">No presente momento, a crescente subida inflação vem desafiando cada vez mais os empresários e empreendedores, a preocupar-se com a segurança financeira do seu negócio, visando a obter maior folga financeira para suportar os momentos em que as  estarão condicionadas pela redução de clientes...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="textoP8.html">Saber mais</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+                <!-- Services End -->
+           <!-- Features Start -->
+        <div class="container-fluid feature pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">NOSSOS SERVIÇOS</h4>
+                    <h1 class="display-5 mb-4">CONSULTORIAS</h1>
+                    
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item p-4">
+                            <div class="service-img">
+                                <img src="img/CONSULRORIA EMPRESARIAL.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <h4>Consultoria Empresarial</h4>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="subsconsultoriaemp.html">Solicitar</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item p-4">
+                            <div class="service-img">
+                                <img src="img/CONSULTORIA FISCAL.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <h4>Consultoria <br> Fiscal</h4>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="subsconsultoriafisc.html">Solicitar</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item p-4">
+                            <div class="service-img">
+                                <img src="img/CONSULTORIA FINANCEIRA.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <h4>Consultoria Financeira</h4>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="subsconsultoriaefin.html">Solicitar</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="service-img">
+                                <img src="img/Gestão de Projetos.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <h4>Gestão de Projectos</h4>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="subscrevergestãoprojectos.html">Solicitar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        
+           <!-- Blog Start -->
+           <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">FORMAÇÃO</h4>
+                    <h1 class="display-5 mb-4">Formação por copetência</h1>
+                   
+                </div>
+                <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="img/CURSO-1.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="blog-title">
+                                <a href="formacao_copetencia.html" class="btn">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/felix.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                            <div class="ms-3">
+                                <h5>Admin</h5>
+                                <p class="mb-0">Data </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="img/CURSO-2.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="blog-title">
+                                <a href="formacao_copetencia.html" class="btn">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/felix.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                            <div class="ms-3">
+                                <h5>Admin</h5>
+                                <p class="mb-0">Data </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="img/CURSO-3.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="blog-title">
+                                <a href="formacao_copetencia.html" class="btn">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/felix.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                            <div class="ms-3">
+                                <h5>Admin</h5>
+                                <p class="mb-0">Data </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="img/CURSO-4.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="blog-title">
+                                <a href="formacao_copetencia.html" class="btn">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/felix.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                            <div class="ms-3">
+                                <h5>Admin</h5>
+                                <p class="mb-0">Data </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="img/CURSO-5.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="blog-title">
+                                <a href="formacao_copetencia.html" class="btn">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/felix.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                            <div class="ms-3">
+                                <h5>Admin</h5>
+                                <p class="mb-0">Data </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="img/CURSO-6.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="blog-title">
+                                <a href="formacao_copetencia.html" class="btn">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/felix.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                            <div class="ms-3">
+                                <h5>Admin</h5>
+                                <p class="mb-0">Data </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item p-4">
+                        <div class="blog-img mb-4">
+                            <img src="img/CURSO-7.png" class="img-fluid w-100 rounded" alt="">
+                            <div class="blog-title">
+                                <a href="formacao_copetencia.html" class="btn">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="img/felix.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                            <div class="ms-3">
+                                <h5>Admin</h5>
+                                <p class="mb-0">Data </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+      
+
+        <!-- Offer Start -->
+        <div class="container-fluid offer-section pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">BIBLIOTECA</h4>
+                    <h1 class="display-5 mb-4">Artigos do Jornal</h1>
+                   
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="nav nav-pills bg-light rounded p-5">
+                            <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+                                
+                                <h5 class="mb-0">A Chave para redução da exposição das empresas ao risco fiscal</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+                                <h5 class="mb-0">Um imperativo à sobrevivência das organizações em Angola</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
+                                <h5 class="mb-0">Aprovação de Financiamento</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseFour">
+                                <h5 class="mb-0">O papel da análise dinâmica do balanço patrimonial</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="tab-content">
+                            <div id="collapseOne" class="tab-pane fade show p-0 active">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/ARTIGOS JORNAL CAPA/1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">ECONOMIA & FINANÇAS </h1>
+                                        <p class="mb-4">No tecido empresarial angolano, o termo compliance,  na sua generalidade, emprega--se no domínio das empresas multinacionais, sobretudo, de expressão anglófonas
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="Artigos publicados no Jornal Economia e Finanças/ECONOMIA & FINANÇAS - ED 771 - 28.06.24.pdf">Ler Mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseTwo" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/ARTIGOS JORNAL CAPA/2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">ECONOMIA & FINANÇAS</h1>
+                                        <p class="mb-4">O período da pandemia trouxe desafios tranversais para o mundo contemporâneo relativamente a adaptação ao novo contexto...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="Artigos publicados no Jornal Economia e Finanças/ECONOMIA & FINANÇAS - ED 772 - 05.07.24__.pdf">Ler Mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseThree" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/ARTIGOS JORNAL CAPA/1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">ECONOMIA & FINANÇAS</h1>
+                                        <p class="mb-4">Actual conjuntura da economia angolana , nos ultimos tempos tem sido considerada desafiante a julgar pelas incertezas que pairam sobre o comportamentodas principais variáveis agregadas...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="Artigos publicados no Jornal Economia e Finanças/ECONOMIA & FINANÇAS - ED 773 - 12.07.24 Pag.pdf">Ler Mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseFour" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/ARTIGOS JORNAL CAPA/2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">ECONOMIA & FINANÇAS</h1>
+                                        <p class="mb-4">O balanço patrimonial representa a fotografia de uma empresa, concernente a apresentação da posição finanaceira, permitindo deste modo o conhecimento pormenorizado...
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="Artigos publicados no Jornal Economia e Finanças/ECONOMIA & FINANÇAS - ED 774 - 19.07.24.pdf">Ler Mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Offer End -->
+              <!-- FAQs Start -->
+        <div class="container-fluid faq-section py-5">
+            <div class="container py-5 overflow-hidden">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">LIVROS</h4>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+                            <div class="accordion-item rounded-top">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Livros de Matemática financeira
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
+                                  <a href="Livros de Matemática financeira.html">Matemtica-finaceira-samanez-Resolucao-4ed</a> <br>
+                                    <a href="Livros de Matemática financeira 2.html">eBook_Matemática_Financeira_UFBA</a>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Livros de Econometria
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
+                                    <a href="Livroseconometria.html">Econometria Clássica E Bayesiana</a> <br>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Livros de educação financeira
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
+                                    <a href="Livrosedfinanceira.html">Livro de psicologia financeira</a> <br>
+                                    <a href="Livrosedfinanceira2.html">Pai Rico Pai Pobre</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    Livros de Auto-ajuda
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
+                                    <a href="Livroautoajuda.html">As 16 Leis do Sucesso - Napoleon Hill</a> <br>
+                                    <a href="Livroautoajuda2.html">James C. Hunter - O monge e o executivo</a> <br>
+                                    <a href="Livroautoajuda3.html">Livro - O Segredo de Luisa</a> <br>
+                                    <a href="Livroautoajuda4.html">Os_7_Hábitos_das_Pessoas_Altamente_Eficazes-Stephen_Cove</a> <br>
+                                    <a href="Livroautoajuda5.html">PODER DA ACÇÃO, PAULO VIEIRA</a> <br>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    Livros de Finanças
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
+                                    <a href="Livrofinancas.html">Análise de Crédito Cobrança E Risco</a> <br>
+                                    <a href="Livrofinancas2.html">eBook FCCC46 - Financas Empresariais</a><br> 
+                                    <a href="Livrofinancas3.html">FINANCAS_FUNDAMENTOS_E_PROCESSOS_pdf</a> <br>
+                                    <a href="Livrofinancas4.html">Finanças-Empresariais</a> 
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-bottom">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                    Livros de Liderança
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">
+                                        <a href="Livrolideranca.html">Liderar é influenciar</a>
+                                    </div>
+                                </div>
+                            </div> <br>
+                            <a href="Livros.html" style="margin: 20px;">Ver mais livros</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded">
+                            <img src="img/APRESENTAÇÃO FÉLIX INÁCIO CFT 2024-4.jpg" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQs End -->
+        </div>
+           <!-- Sobre-Inicio -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">SOBRE</h4>
+                            <h1 class="display-5 mb-4">FelixinacioCft</h1>
+                            <p class="mb-4">Somos uma equipa jovem, dinâmica, tendo como principal  objectivo, comprender as necessidades dos clientes, Fornecendo-lhes serviços que vão ao encontro do seu real interesse. Para tal , Dispomos de uma Equipa Qualificada e Copetente, Bem como os Métodos e procedimentos exequíveis a realidade do Mercado Angolano.
+                            </p>
+                            <div class="row g-4">
+                                
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
+                                        <div>
+                                            <h4>Contacto</h4>
+                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;">947192788</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded position-relative overflow-hidden" style="height: 600px; width: 400px;">
+                            <img src="img/felix.jpg" class="img-fluid rounded w-100" alt="" >
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        <!-- About End -->
+
+        <!-- Features Start -->
+        <div class="container-fluid feature pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-chart-line fa-4x text-primary"></i>
+                            </div>
+                            <h4>VISÃO</h4>
+                            <p class="mb-4">Ser uma empresa inovadora na resposta as necessidades do mercado
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-university fa-4x text-primary"></i>
+                            </div>
+                            <h4>MISSÃO</h4>
+                            <p class="mb-4">Promover aos clientes de forma hábil a melhorar as soluções contábil-fiscal-financeira e Tecnologica  <!-- Features End atráves de serviços prestados visando a qualidade e aprimoramento profissional e , contribuindo continuamente para evolução dos nossos clientes-->
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-file-alt fa-4x text-primary"></i>
+                            </div>
+                            <h4>VALORES</h4>
+                            <p class="mb-4">Comprometimento, responsabilidade,Dedicação e ética
+                            </p>
+                          
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
+                            </div>
+                            <h4>OBJECTIVO</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+
+        <!-- About End -->
+        <!-- FAQs End -->
+
+
+        <!-- Team Start -->
+        
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">NOSSOS CLIENTES</h4>
+                    
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                    
+                        
+                        <div class="testimonial-img">
+                            <img src="img/vendor-1.png" class="img-fluid" alt="Image" style="height: 150px; width: 150px; margin: 150px; ">
+                        </div>
+                       
+                     
+                     
+                  
+                       
+                        <div class="testimonial-img">
+                            <img src="img/vendor-2.png" class="img-fluid" alt="Image"style="height: 150px; width: 150px;margin: 150px;">
+                        </div>
+                       
+                        
+                       
+                   
+                   
+                       
+                        <div class="testimonial-img">
+                            <img src="img/vendor-3.png" class="img-fluid" alt="Image"style="height: 150px; width: 150px;margin: 150px;">
+                        </div>
+                       
+                      
+                       
+                    
+                       
+                        <div class="testimonial-img">
+                            <img src="img/vendor-4.png" class="img-fluid" alt="Image"style="height: 150px; width: 150px;margin: 150px;">
+                        </div>
+                       
+                       
+                        
+                        
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+          <!-- Rodapé-Início -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white"><img src="img/LOGOTIPO.png" style="height: 80px;width: 80px;" alt="" srcset=""></FELIXINACIOCFT</h4>
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a>
+                            <p class="mb-4">Somos uma equipa jovem, dinâmica, tendo como principal  objectivo, comprender as necessidades dos clientes.</p>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-2">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">A Empresa</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Sobre</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Formações</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Consultorias</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Bibliotecas</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Livros</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Login</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Eventos</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Cursos</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Palestras</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Workshops</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Obras Literárias</a>
+                    </div>
+                </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Contacto</h4>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">Kilamba, Prédio K25, Apartamento 104</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <p class="text-white mb-0">	felix.malungue@gmail.com</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-phone-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">947192788</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                <p class="text-white mb-0">Felixinaciocft.com</p>
+                            </div>
+                            <div class="d-flex">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Rodapé-Fim -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Felixinaciocft.com</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        
+                      Projectado por <a class="border-bottom text-white" href="https://htmlcodex.com">felixinacio</a> <a class="border-bottom text-white" href="https://cft.com">cft</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+       
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="//code.tidio.co/yuh60lyogxivzdsafnv5remqgm1ganqc.js" async></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script>
+            (function (w, d, s, o, f, js, fjs) {
+              w["botsonic_widget"] = o;
+              w[o] =
+                w[o] ||
+                function () {
+                  (w[o].q = w[o].q || []).push(arguments);
+                };
+              (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+              js.id = o;
+              js.src = f;
+              js.async = 1;
+              fjs.parentNode.insertBefore(js, fjs);
+            })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
+            Botsonic("init", {
+              serviceBaseUrl: "https://api-azure.botsonic.ai",
+              token: "e8f5a6d9-5bfe-46c0-baa5-3fc0cfec118a",
+            });
+          </script>
+    </body>
+
+</html>
